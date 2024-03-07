@@ -3,41 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>NIKE</title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="img/icons/nike-logo.svg" width="24" alt="">
+        <div class="container flex flex__justify_between">
+            <img src="assets/img/icons/nike-logo.svg" width="20" alt="">
             <nav>
-                <ul>
-                    <li style="color: brown;">Find a Store</li>
-                    <li id="help">Help</li>
-                    <li class="list-element">Join Us</li>
-                    <li class="list-element">Sing in</li>
+                <ul class="flex">
+                    <li class="drop__list-element-style font_medium global-menu__element">Find a Store</li>
+                    <li class="drop__list-element-style font_medium global-menu__element">Help</li>
+                    <li class="drop__list-element-style font_medium global-menu__element">Join Us</li>
+                    <li class="drop__list-element-style font_medium global-menu__element">Sing in</li>
                 </ul>
             </nav>
         </div>
-        <div>
-            <img src="img/icons/air-jordan-logo.svg" width="78,47" alt="">
+        <div class="container flex flex__justify_between flex__items_center">
+            <img src="assets/img/icons/air-jordan-logo.svg" width="58" alt="">
             <nav>
-                <ul>
-                    <li class="list-element">New & Featured</li>
-                    <li>Men</li>
-                    <li class="list-element">Women</li>
-                    <li>Kids</li>
-                    <li class="list-element">Sale</li>
-                    <li>SNKRS</li>
+                <ul class="flex gap_1-5rem">
+                    <li class="drop__list-element-style font_medium">New & Featured</li>
+                    <li class="drop__list-element-style font_medium">Men</li>
+                    <li class="drop__list-element-style font_medium">Women</li>
+                    <li class="drop__list-element-style font_medium">Kids</li>
+                    <li class="drop__list-element-style font_medium">Sale</li>
+                    <li class="drop__list-element-style font_medium">SNKRS</li>
                 </ul>
             </nav>
-            <img src="img/icons/search.svg">
-            <input type="search" name="search" id="search"            
-            placeholder= "search">
-            <img src="img/icons/Like.svg">
-            <img src="img/icons/basket.svg">
-        </div>    
-       <!-- <div>
+            <div class="flex gap_1-5rem flex__items_center">
+                <div class="relative">
+                <button class="search-button"><img src="assets/img/icons/search.svg"></button>
+                <input placeholder="search" class="search-input" type="text">
+                </div>            
+                <div class="flex gap_1-5rem">                
+                <img src="assets/img/icons/Like.svg">
+                <img src="assets/img/icons/basket.svg">
+                </div>
+        </div>        
+        </div> 
+        <!-- Спозиционировать -->
+        <div class="margin__top_3rem container flex flex__justify_center">
+            <img src="assets/img/banner.jpeg" alt="">
+        </div> 
+       <!--<div>
             <img src="img/icons/air-jordan-logo.svg" width="78,47" alt="">
             <nav>
                 <ul>

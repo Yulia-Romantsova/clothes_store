@@ -1,0 +1,68 @@
+@import url('fonts.css');
+@import url('utils.css');
+/* обратиться ко всем тегам */
+/* * {
+    font-size: 2rem;
+}*/
+
+/* обратиться ко всем тегам ли */
+/*li {
+    font-size: 11px;
+    color: blue;
+    font-weight: 500;
+    line-height: 14px;
+    font-size: 11px;
+    color: blue;
+    font-weight: 500;
+    line-height: 14px;
+}*/
+/* обратиться по идентификатору */
+/*#help { 
+    color: green;
+}*/
+
+/*.list-element {
+    color: blueviolet;
+    font-size: 1rem;
+    line-height: 1.2;
+}*/
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.global-menu__element {
+    font-size: 11px;
+    padding: 0 24px 0 10px;   
+}
+.global-menu__element:not(:last-child) {
+    border-right: 3px solid #000000;
+}
+
+.global-menu__element:last-child {
+    padding-right: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: calc(50% - 10px); 
+}
+
+.search-input {
+    border: none;
+    border-radius: 100px;
+    background: rgb(245, 245, 245);
+    outline: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    line-height: 2.1;
+}

@@ -1,0 +1,45 @@
+.font_regular {
+    font-weight: 400;
+    font-family: 'Roboto-regular';
+}
+.font_medium {
+    font-weight: 500;
+    font-family: 'Roboto-medium'
+}
+.block {
+    display: block;
+}
+
+.margin_center {
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.flex__justify_center {
+    justify-content: center;
+}
+.flex__justify_between {
+    justify-content: space-between;
+}
+
+.flex__items_center {
+    align-items: center;
+}
+
+.drop__list-element-style {
+    list-style-type: none;
+}
+.gap_1-5rem {
+    gap: 1.5rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.margin__top_3rem {
+    margin-top: 3rem;
+}
+
+
