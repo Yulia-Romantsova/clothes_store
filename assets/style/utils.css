@@ -6,6 +6,11 @@
     font-weight: 500;
     font-family: 'Roboto-medium'
 }
+
+.font-size_3-5rem {
+    font-size: 3.5rem;
+}
+
 .block {
     display: block;
 }
@@ -34,12 +39,51 @@
     gap: 1.5rem;
 }
 
+.gap_10rem {
+    gap: 10rem;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
 .relative {
     position: relative;
+}
+
+.margin__top_2rem {
+    margin-top: 2rem;
 }
 
 .margin__top_3rem {
     margin-top: 3rem;
 }
 
+.background_transparent {
+    background-color: transparent;
+}
+
+.no-border {
+    border: none;
+}
+
+.no-outline {
+    outline: none;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.text-align_center {
+    text-align: center;
+}
+
+.width-100 {
+    width: 100%;
+}
 

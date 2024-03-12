@@ -12,10 +12,10 @@
             <img src="assets/img/icons/nike-logo.svg" width="20" alt="">
             <nav>
                 <ul class="flex">
-                    <li class="drop__list-element-style font_medium global-menu__element">Find a Store</li>
-                    <li class="drop__list-element-style font_medium global-menu__element">Help</li>
-                    <li class="drop__list-element-style font_medium global-menu__element">Join Us</li>
-                    <li class="drop__list-element-style font_medium global-menu__element">Sing in</li>
+                    <li class="drop__list-element-style font_medium global-menu__element"><a href="#">Find a Store</a></li>
+                    <li class="drop__list-element-style font_medium global-menu__element"><a href="#">Help</a></li>
+                    <li class="drop__list-element-style font_medium global-menu__element"><a href="#">Join Us</a></li>
+                    <li class="drop__list-element-style font_medium global-menu__element"><a href="#">Sing in</a></li>
                 </ul>
             </nav>
         </div>
@@ -23,47 +23,99 @@
             <img src="assets/img/icons/air-jordan-logo.svg" width="58" alt="">
             <nav>
                 <ul class="flex gap_1-5rem">
-                    <li class="drop__list-element-style font_medium">New & Featured</li>
-                    <li class="drop__list-element-style font_medium">Men</li>
-                    <li class="drop__list-element-style font_medium">Women</li>
-                    <li class="drop__list-element-style font_medium">Kids</li>
-                    <li class="drop__list-element-style font_medium">Sale</li>
-                    <li class="drop__list-element-style font_medium">SNKRS</li>
+                    <li class="drop__list-element-style font_medium"><a href="#">New & Featured</a></li>
+                    <li class="drop__list-element-style font_medium"><a href="#">Men</a></li>
+                    <li class="drop__list-element-style font_medium"><a href="#">Women</a></li>
+                    <li class="drop__list-element-style font_medium"><a href="#">Kids</a></li>
+                    <li class="drop__list-element-style font_medium"><a href="#">Sale</a></li>
+                    <li class="drop__list-element-style font_medium"><a href="#">SNKRS</a></li>
                 </ul>
             </nav>
             <div class="flex gap_1-5rem flex__items_center">
                 <div class="relative">
-                <button class="search-button"><img src="assets/img/icons/search.svg"></button>
-                <input placeholder="search" class="search-input" type="text">
+                <button class="background__transparent no-border no-outline search-button"><img src="assets/img/icons/search.svg"></button>
+                <input placeholder="search" class="background_transparent no-border no-outline search-input" type="text">
                 </div>            
-                <div class="flex gap_1-5rem">                
-                <img src="assets/img/icons/Like.svg">
-                <img src="assets/img/icons/basket.svg">
+                <div class="flex gap_1-5rem">
+                    <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/Like.svg"></button>
+                    <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/basket.svg"></button>
                 </div>
         </div>        
-        </div> 
-        <!-- Спозиционировать -->
-        <div class="margin__top_3rem container flex flex__justify_center">
-            <img src="assets/img/banner.jpeg" alt="">
-        </div> 
-       <!--<div>
-            <img src="img/icons/air-jordan-logo.svg" width="78,47" alt="">
-            <nav>
-                <ul>
-                    <li>New & Featured</li>
-                    <li>Men</li>
-                    <li>Women</li>
-                    <li>Kids</li>
-                    <li>Sale</li>
-                    <li>SNKRS</li>
+        </div>   
+    </header>
+    <main class="container">
+        <section class="text-align_center">  
+            <img class="width-100" src="assets/img/banner.jpeg" alt="баннер">
+            <div class="margin__top_3rem">
+            <p class="no-padding no-margin banner-text font_regular">First Look</p>
+            <h2 class="margin_center font-size_3-5rem font_medium ">Nike Air Max Pulse</h2>
+            <p class="no-padding no-margin banner-text font_regular">Extreme comfort. Hyper durable. Max volume. Introducing the Air Max Pulse<br />
+                —designed to push you past your limits and help you go to the max.</p>
+                <div class="margin__top_2rem">
+                <button class="cursor_pointer promo-action-button font_regular">Notify Me</button>
+                <button class="cursor_pointer promo-action-button font_regular">Shop Air Max</button>
+            </div>
+            </div>
+        </section>
+        <section class="margin__top_3rem">
+            <p class="font_medium">Featured</p>
+            <img class="width-100" src="assets/img/featured.jpeg" alt="баннер">
+            <div class="text-align_center">
+            <h2 class="margin_center font-size_3-5rem font_medium margin__top_3rem">STEP INTO WHAT FEELS GOOD</h2>
+            <p class="no-padding no-margin banner-text font_regular">Cause everyone should know the feeling of running in that perfect pair.</p>
+            <div class="margin__top_2rem">
+                <button class="cursor_pointer promo-action-button font_regular">Shop Air Max</button>
+            </div>            
+        </div>
+        </section>
+        <section class="text-align_center">
+            <p class="font_medium">Don't Miss</p>
+            <img class="width-100" src="assets/img/flight_essentials.jpeg" alt="баннер">
+            <div class="text-align_center">
+            <h2 class="margin_center font-size_3-5rem font_medium margin__top_3rem">Flight Essentails</h2>
+            <p class="no-padding no-margin banner-text font_regular">Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.</p>
+            </div>
+            <div class="margin__top_2rem">
+                <button class="cursor_pointer promo-action-button font_regular">Shop</button>
+            </div> 
+        </section>
+        <section class="margin__top_3rem flex__justify_between">
+            <img src="assets/img/menu1.jpeg" alt="меню">
+            <img src="assets/img/menu2.jpeg" alt="меню">
+            <img src="assets/img/menu3.jpeg" alt="меню">
+        </section>
+        <section>
+            <nav class="flex flex__justify_center margin__top_3rem gap_10rem">
+                <ul class="drop__list-element-style font_regular"> 
+                        <li>NEW</li>
+                        <li><a class="menu-text" href="#">Air Force 1</a></li>
+                        <li><a class="menu-text" href="#">Huarache</a></li>
+                        <li><a class="menu-text" href="#">Air Max 90</a></li>
+                        <li><a class="menu-text" href="#">Air Max 95</a></li>                                      
+                </ul>
+                <ul class="drop__list-element-style font_regular">
+                    <li>Shoes</li>                    
+                    <li><a class="menu-text" href="#">All Shoes</a></li>
+                    <li><a class="menu-text" href="#">Custom Shoes</a></li>
+                    <li><a class="menu-text" href="#">Jordan Shoes</a></li>
+                    <li><a class="menu-text" href="#">Running Shoes</a></li>                                                           
+                </ul>
+                <ul class="drop__list-element-style font_regular">
+                    <li>Clothing</li>                    
+                    <li><a class="menu-text" href="#">All Clothing</a></li>
+                    <li><a class="menu-text" href="#">Modest Wear</a></li>
+                    <li><a class="menu-text" href="#">Hoodies & Pullovers</a></li>
+                    <li><a class="menu-text" href="#">Shirts & Tops</a></li>                                                          
+                </ul>
+                <ul class="drop__list-element-style font_regular">
+                        <li>Kids</li>
+                        <li><a class="menu-text" href="#">Infant & Toddler Shoes</a></li>
+                        <li><a class="menu-text" href="#">Kids' Shoes</a></li>
+                        <li><a class="menu-text" href="#">Kids' Jordan Shoes</a></li>
+                        <li><a class="menu-text" href="#">Kids' Basketball Shoes</a></li>                                                           
                 </ul>
             </nav>
-            <img src="img/icons/search.svg">
-            <input type="search" name="search" id="search"            
-            placeholder= "search">
-            <img src="img/icons/Like.svg">
-            <img src="img/icons/basket.svg">
-        </div>-->
-    </header>
+        </section>
+    </main>
 </body>
 </htm
