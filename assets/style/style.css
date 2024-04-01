@@ -26,6 +26,10 @@
     font-size: 1rem;
     line-height: 1.2;
 }*/
+body {
+    margin: 0;
+    padding: 0;
+}
 
 a {
     color: black;
@@ -73,6 +77,18 @@ a {
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     }
 
+.menu-action-link {
+    border-radius: 100px;
+    border-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    color: rgb(17, 17, 17);
+    background: rgb(255, 255, 255);
+    left: 20px;
+    bottom: 40px;      
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }    
+    
+
 .under-banner-title {
     margin-left: 39px;
 }
@@ -84,5 +100,10 @@ a {
 
 .menu-text {
     color: rgb(117, 117, 117);
+}
+.footer-style {
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
 }
     

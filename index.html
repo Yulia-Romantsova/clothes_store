@@ -79,14 +79,23 @@
                 <button class="cursor_pointer promo-action-button font_regular">Shop</button>
             </div> 
         </section>
-        <section class="margin__top_3rem flex__justify_between">
-            <img src="assets/img/menu1.jpeg" alt="меню">
-            <img src="assets/img/menu2.jpeg" alt="меню">
-            <img src="assets/img/menu3.jpeg" alt="меню">
-        </section>
+        <section class="margin__top_3rem grid grid_columns gap_1-5rem">
+            <div class="relative">
+                <img class="width-100" src="assets/img/menu1.jpeg" alt="баннер">                
+                <a class="absolute menu-action-link font_regular" href="#">Men's</a>
+            </div>
+            <div class="relative">
+                <img class="width-100" src="assets/img/menu2.jpeg" alt="баннер">
+                <a class="absolute menu-action-link font_regular" href="#">Women's</a>                
+            </div>
+            <div class="relative">
+                <img class="width-100" src="assets/img/menu3.jpeg" alt="баннер">
+                <a class="absolute menu-action-link font_regular" href="#">Kids'</a>                
+            </div>
+        </section>        
         <section>
-            <nav class="flex flex__justify_center margin__top_3rem gap_10rem">
-                <ul class="drop__list-element-style font_regular"> 
+            <nav class="flex flex__justify_center margin__top_3rem gap_5rem line_height">
+                <ul class="drop__list-element-style font_regular "> 
                         <li>NEW</li>
                         <li><a class="menu-text" href="#">Air Force 1</a></li>
                         <li><a class="menu-text" href="#">Huarache</a></li>
@@ -117,5 +126,53 @@
             </nav>
         </section>
     </main>
+    <footer class="footer-style">
+        <div class="container flex flex__justify_between">
+            <nav class="flex gap_5rem margin__top_2rem line_height">
+                <ul class="drop__list-element-style font_regular margin__top_2rem">
+                    <li>FIND A STORE</li>
+                    <li>BECOME A MEBER</li>
+                    <li>SING UP FOR EMAIL</li>
+                    <li>SEND US FEEDBACK</li>
+                    <li>STUDENT DISCOUNTS</li>
+                </ul>
+                <ul class="drop__list-element-style font_regular margin__top_2rem">
+                    <li>GET HELP</li>
+                    <li>Order Status</li>
+                    <li>Delivery</li>
+                    <li>Returns</li>
+                    <li>Payment Options</li>
+                    <li>Contact Us On Nike.com Inquiries</li>
+                    <li>Contact Us On All Other Inquiries</li>
+                </ul>
+                <ul class="drop__list-element-style font_regular margin__top_2rem">
+                    <li>ABOUT</li>
+                    <li>NIKE</li>
+                    <li>Careers</li>
+                    <li>Investors</li>
+                    <li>Sustainability</li>
+                </ul>
+            </nav>
+            <div class="smm-links margin__top_2rem">
+                <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/twitter.svg"></button>
+                <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/facebook.svg"></button>
+                <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/youtube.svg"></button>
+                <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/instagram.svg"></button>
+            </div>       
+        </div>  
+        <div class="container padding font_regular flex flex__justify_between">
+            <div>
+                <img src="assets/img/icons/map.svg" alt="карта4">
+                <a class="footer-style" href="#">India</a><span class="margin__left_2rem ">© 2023 Nike, Inc. All Rights Reserved</span>
+            </div>         
+            <ul class="flex drop__list-element-style font_regular">            
+                <li class="margin__left_2rem">Guides</li>
+                <li class="margin__left_2rem">Terms of Sale</li>
+                <li class="margin__left_2rem">Terms of Use</li>
+                <li class="margin__left_2rem">Nike Privacy Policy</li>
+            </ul>        
+        </div>
+           
+    </footer>
 </body>
 </htm

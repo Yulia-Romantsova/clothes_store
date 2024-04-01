@@ -33,14 +33,30 @@
 }
 
 .drop__list-element-style {
-    list-style-type: none;
+    list-style-type: none;    
 }
+
+.grid {
+    display: grid;
+}
+
+.grid_columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .gap_1-5rem {
     gap: 1.5rem;
 }
 
+.gap_5rem {
+    gap: 5rem;
+}
 .gap_10rem {
     gap: 10rem;
+}
+
+.gap_29rem {
+    top: 29rem;
 }
 
 .cursor_pointer {
@@ -51,12 +67,20 @@
     position: relative;
 }
 
+.absolute {
+    position: absolute;
+}
+
 .margin__top_2rem {
     margin-top: 2rem;
 }
 
 .margin__top_3rem {
     margin-top: 3rem;
+}
+
+.margin__left_2rem {
+    margin-left: 2rem;
 }
 
 .background_transparent {
@@ -75,8 +99,16 @@
     margin: 0;
 }
 
+.line_height {
+    line-height: 2rem;
+}
+
 .no-padding {
     padding: 0;
+}
+
+.padding {
+    padding: 1rem;
 }
 
 .text-align_center {
