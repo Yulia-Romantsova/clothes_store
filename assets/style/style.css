@@ -106,4 +106,10 @@ a {
     color: rgb(255, 255, 255);
     font-size: 0.7rem;
 }
-    
+
+.arrow-style {
+    border-radius: 50%;
+    background: rgb(229, 229, 229);
+    padding: 12px;
+}
+

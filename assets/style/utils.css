@@ -44,6 +44,10 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.gap_1rem {
+    gap: 1rem;
+}
+
 .gap_1-5rem {
     gap: 1.5rem;
 }
@@ -91,6 +95,10 @@
     border: none;
 }
 
+.margin-right {
+        margin-right: 12px;
+}
+
 .no-outline {
     outline: none;
 }
@@ -119,3 +127,6 @@
     width: 100%;
 }
 
+.transform {
+    transform: rotate(0.5turn);
+}
