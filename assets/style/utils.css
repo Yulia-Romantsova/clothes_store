@@ -24,12 +24,21 @@
 .flex__justify_center {
     justify-content: center;
 }
+
 .flex__justify_between {
     justify-content: space-between;
 }
 
+.flex__justify_end {
+    justify-content: end;
+}
+
 .flex__items_center {
     align-items: center;
+}
+
+.flex__justify_space_around {
+    justify-content: space-around;
 }
 
 .drop__list-element-style {
