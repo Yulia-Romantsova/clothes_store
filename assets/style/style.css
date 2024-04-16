@@ -67,6 +67,7 @@ a {
 .search-button {   
     position: absolute;
     top: calc(50% - 10px); 
+    background-color: transparent;
 }
 
 .search-input {
@@ -144,6 +145,10 @@ a {
 
 .icon:hover {
     transform: scale(1.4);
+}
+.border-hover:hover {
+    padding: 5px;
+    border: 1px solid black;
 }
 
 .menu-text {
