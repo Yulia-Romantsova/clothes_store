@@ -169,3 +169,60 @@ a {
 .product-font {
     color: rgb(var(--main-gray-color));
 }
+
+.new-clothes-nav-menu {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.shop-menu {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1399.98px) {
+    
+}
+
+@media (max-width: 991.98px) {
+    .jordan-logo {
+        display: none;
+    }
+
+    .clothes-types-nav > ul {
+        padding-left: 0;
+    }
+
+    .clothes-types-container {
+        flex-direction: column;
+    }
+
+    .air-max:not(:nth-child(-n+2)) {
+        display: none;
+    }
+    .new-clothes-nav-menu {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .font-size_3-5rem {
+        font-size: 2rem;
+    }
+
+    .grid_columns {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+  
+}
+
+@media (max-width: 576px) {
+    .new-clothes-nav-menu {
+        grid-template-columns: 1fr;
+    }
+
+    .font-size_3-5rem {
+        font-size: 2rem;
+    }
+    
+    .grid_columns {
+        grid-template-columns: 1fr;
+    }    
+}

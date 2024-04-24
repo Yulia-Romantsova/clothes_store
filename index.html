@@ -7,7 +7,8 @@
     <title>NIKE</title>
 </head>
 <body>
-    <header>
+    <div class="flex flex_column height-100">
+    <!--<header>
         <div class="container flex flex__justify_between">
             <img src="assets/img/icons/nike-logo.svg" width="20" alt="лого">
             <nav>
@@ -19,9 +20,9 @@
                 </ul>
             </nav>
         </div>
-        <div class="container flex flex__justify_between flex__items_center">
-            <img src="assets/img/icons/air-jordan-logo.svg" width="58" alt="лого">
-            <nav>
+        <div class="container flex flex__justify_between flex__items_center clothes-types-container">
+            <img class="jordan-logo" src="assets/img/icons/air-jordan-logo.svg" width="58" alt="лого">
+            <nav class="clothes-types-nav">
                 <ul class="flex gap_1-5rem">
                     <li class="drop__list-element-style font_medium"><a class="link" href="#">New & Featured</a></li>
                     <li class="drop__list-element-style font_medium"><a class="link" href="#">Men</a></li>
@@ -42,9 +43,9 @@
                 </div>
         </div>        
         </div>   
-    </header>
-    <main class="container">
-        <section class="text-align_center">  
+    </header>-->
+    <main class="container flex_1">
+        <!--<section class="text-align_center">  
             <img class="width-100" src="assets/img/banner.jpeg" alt="баннер">
             <div class="margin__top_3rem">
             <p class="no-padding no-margin banner-text font_regular">First Look</p>
@@ -56,19 +57,19 @@
                 <button class="cursor_pointer promo-action-button font_regular promo-button menu-transition">Shop Air Max</button>
             </div>
             </div>
-        </section>
+        </section>-->
         <section class="margin__top_3rem">  
-            <div class="flex flex__justify_between">
+            <!--<div class="flex flex__justify_between">
                 <h2 class="font_medium">Best of Air Max</h2>  
             <div class="flex gap_1rem flex__items_center">                 
                 <p class="flex flex__items_center font_regular">Shop</p>               
                 <button class="cursor_pointer flex flex__items_center transform no-border arrow-style"><img src="assets/img/icons/arrow.svg" alt="кнопка"></button>
                 <button class="cursor_pointer flex flex__items_center no-border arrow-style "><img src="assets/img/icons/arrow.svg" alt="кнопка"></button>
             </div>
-        </div>
-        <div class="carousel flex flex__justify_between gap_1rem">
+        </div>-->
+        <div class=" flex-wrap flex__justify_center flex gap_1rem">
             <a href="#" class="border border-hover menu-transition">
-                <img src="assets/img/product1.jpeg" alt="Товар 1">
+                <img class="block width-100" src="assets/img/product1.jpeg" alt="Товар 1">
                 <div>
                     <div class="flex flex__justify_between">
                         <p class="font_regular ">Nike Air Max Pulse</p>
@@ -81,7 +82,7 @@
                 </div>
             </a>
             <a href="#" class="border border-hover menu-transition">
-                <img src="assets/img/product2.jpeg" alt="Товар 2">
+                <img class="block width-100" src="assets/img/product2.jpeg" alt="Товар 2">
                 <div>
                     <div class="flex flex__justify_between">
                         <p class="font_regular ">Nike Air Max SYSTM</p>
@@ -94,7 +95,7 @@
                 </div>
             </a>
             <a href="#" class="border border-hover menu-transition">
-                <img src="assets/img/product3.jpeg" alt="Товар 3">
+                <img class="block width-100" src="assets/img/product3.jpeg" alt="Товар 3">
                 <div>
                     <div class="flex flex__justify_between">
                         <p class="font_regular ">Nike Air Max 97 SE</p>
@@ -107,7 +108,7 @@
                 </div>
             </a>
             <a href="#" class="border border-hover menu-transition">
-                <img src="assets/img/product1.jpeg" alt="Товар 4">
+                <img class="block width-100" src="assets/img/product1.jpeg" alt="Товар 4">
                 <div>
                     <div class="flex flex__justify_between">
                         <p class="font_regular ">Nike Air Max 97 SE</p>
@@ -120,7 +121,7 @@
                 </div>
             </a>
             <a href="#" class="border border-hover menu-transition">
-                <img src="assets/img/product2.jpeg" alt="Товар 2">
+                <img class="block width-100" src="assets/img/product2.jpeg" alt="Товар 2">
                 <div>
                     <div class="flex flex__justify_between">
                         <p class="font_regular ">Nike Air Max SYSTM</p>
@@ -147,14 +148,14 @@
         </section>
         <section>
             <h2 class="font_medium">Gear Up</h2>
-            <div class="flex flex__justify_space_around ">
+            <div class="flex flex-wrap_reverse flex__justify_center">
                 <div>
                     <div class="flex gap_1rem flex__justify_end ">                 
                         <p class="flex font_regular">Shop Men's</p>               
                         <button class="cursor_pointer flex flex__items_center transform no-border arrow-style"><img src="assets/img/icons/arrow.svg" alt="кнопка"></button>
                         <button class="cursor_pointer flex flex__items_center no-border arrow-style "><img src="assets/img/icons/arrow.svg" alt="кнопка"></button>
                     </div>
-                    <div class="flex gap_1rem flex__items_center padding">
+                    <div class="flex  flex__justify_center flex-wrap gap_1rem flex__items_center padding">
                         <a href="#" class="border border-hover menu-transition">
                             <img src="assets/img/clothe1.jpeg" alt="одежда">
                             <div>
@@ -185,20 +186,20 @@
                 </div>
                 <div>
                     <div class="flex gap_1rem flex__justify_end ">                 
-                        <p class="flex font_regular">Shop Men's</p>               
+                        <p class="flex font_regular">Shop Women's</p>               
                         <button class="cursor_pointer flex flex__items_center transform no-border arrow-style"><img src="assets/img/icons/arrow.svg" alt="кнопка"></button>
                         <button class="cursor_pointer flex flex__items_center no-border arrow-style "><img src="assets/img/icons/arrow.svg" alt="кнопка"></button>
                     </div>
-                    <div class="flex gap_1rem flex__items_center padding">
+                    <div class="flex flex-wrap flex__justify_center gap_1rem flex__items_center padding">
                         <a href="#" class="border border-hover menu-transition">
                             <img src="assets/img/clothe3.jpeg" alt="одежда">
                             <div>
                                 <div class="flex flex__justify_between">
-                                    <p class="font_regular ">Nike Dri-FIT ADV TechKnit Ultra</p>
+                                    <p class="font_regular ">Nike Dri-FIT ADV Run Division</p>
                                     <p class="font_regular ">₽ 21000</p>
                                 </div>
                                 <div class="flex flex__justify_between">
-                                    <p class="font_regular product-font no-margin">Men's Short-Sleeve <br> Running Top</p>
+                                    <p class="font_regular product-font no-margin">Women's Long-Sleeve<br> Running Top</p>
                                     <p class="font_regular no-margin">15</p>
                                 </div>
                             </div>
@@ -207,11 +208,11 @@
                             <img src="assets/img/clothe4.jpeg" alt="одежда">
                             <div>
                                 <div class="flex flex__justify_between">
-                                    <p class="font_regular ">Nike Dri-FIT Challenger</p>
+                                    <p class="font_regular ">Nike Fast</p>
                                     <p class="font_regular ">₽ 25000</p>
                                 </div>
                                 <div class="flex flex__justify_between">
-                                    <p class="font_regular product-font no-margin">Men's 18cm (approx.) <br> 2-in-1 Versatile Shorts</p>
+                                    <p class="font_regular product-font no-margin">Women's Mid-Rise 7/8<br> Running Leggings with Pockets</p>
                                     <p class="font_regular no-margin">337</p>
                                 </div>
                             </div>
@@ -231,44 +232,44 @@
                 <button class="cursor_pointer promo-action-button font_regular promo-button menu-transition">Shop</button>
             </div> 
         </section>
-        <div class="margin__top_3rem grid grid_columns gap_1-5rem">
+        <div class="flex-wrap flex__justify_center flex margin__top_3rem gap_1-5rem">
             <div class="relative menu">
-                <img class="width-100 shop-menu:hover img" src="assets/img/menu1.jpeg" alt="баннер">                
+                <img class="width-100 block shop-menu:hover img" src="assets/img/menu1.jpeg" alt="баннер">                
                 <a class="absolute menu-action-link font_regular menu-link" href="#">Men's</a>
             </div>
             <div class="relative menu">
-                <img class="width-100" src="assets/img/menu2.jpeg" alt="баннер">
+                <img class="width-100 block" src="assets/img/menu2.jpeg" alt="баннер">
                 <a class="absolute menu-action-link font_regular menu-link" href="#">Women's</a>                
             </div>
             <div class="relative menu">
-                <img class="width-100" src="assets/img/menu3.jpeg" alt="баннер">
+                <img class="width-100 block" src="assets/img/menu3.jpeg" alt="баннер">
                 <a class="absolute menu-action-link font_regular menu-link" href="#">Kids'</a>                
             </div>
         </div>        
         <div>
-            <nav class="flex flex__justify_center margin__top_3rem gap_5rem line_height">
-                <ul class="drop__list-element-style font_regular"> 
+            <nav class="grid new-clothes-nav-menu margin__top_3rem line_height">
+                <ul class="drop__list-element-style font_regular grid"> 
                         <li>NEW</li>
                         <li><a class="menu-text nav" href="#">Air Force 1</a></li>
                         <li><a class="menu-text nav" href="#">Huarache</a></li>
                         <li><a class="menu-text nav" href="#">Air Max 90</a></li>
                         <li><a class="menu-text nav" href="#">Air Max 95</a></li>                                      
                 </ul>
-                <ul class="drop__list-element-style font_regular">
+                <ul class="drop__list-element-style font_regular grid">
                     <li>Shoes</li>                    
                     <li><a class="menu-text nav" href="#">All Shoes</a></li>
                     <li><a class="menu-text nav" href="#">Custom Shoes</a></li>
                     <li><a class="menu-text nav" href="#">Jordan Shoes</a></li>
                     <li><a class="menu-text nav" href="#">Running Shoes</a></li>                                                           
                 </ul>
-                <ul class="drop__list-element-style font_regular">
+                <ul class="drop__list-element-style font_regular grid">
                     <li>Clothing</li>                    
                     <li><a class="menu-text nav" href="#">All Clothing</a></li>
                     <li><a class="menu-text nav" href="#">Modest Wear</a></li>
                     <li><a class="menu-text nav" href="#">Hoodies & Pullovers</a></li>
                     <li><a class="menu-text nav" href="#">Shirts & Tops</a></li>                                                          
                 </ul>
-                <ul class="drop__list-element-style font_regular">
+                <ul class="drop__list-element-style font_regular grid">
                         <li>Kids</li>
                         <li><a class="menu-text nav" href="#">Infant & Toddler Shoes</a></li>
                         <li><a class="menu-text nav" href="#">Kids' Shoes</a></li>
@@ -325,6 +326,7 @@
             </ul>        
         </div>
            
-    </footer>
+    </footer>-->
+</div>
 </body>
 </html>
