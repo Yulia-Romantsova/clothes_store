@@ -138,6 +138,12 @@ a {
     transform: scale(1.05);
 }
 
+.border-bottom-menu {
+    border: 3px;
+    border-bottom: black;
+}
+
+
 .nav:hover {
     transition: color 0.5s;
     color: black;
@@ -160,6 +166,10 @@ a {
     font-size: 0.7rem;
 }
 
+
+
+
+
 .arrow-style {
     border-radius: 50%;
     background: rgb(229, 229, 229);
@@ -178,12 +188,18 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (max-width: 1399.98px) {
-    
+@media (min-width: 992px) {
+    .header-mobile {
+        display: none;
+    }
 }
 
 @media (max-width: 991.98px) {
-    .jordan-logo {
+    .nike-logo {
+        display: none;
+    }
+    
+    .header-wide {
         display: none;
     }
 
