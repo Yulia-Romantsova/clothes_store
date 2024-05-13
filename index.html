@@ -8,76 +8,94 @@
 </head>
 <body>
     <div class="flex flex_column height-100">
-    <header>
-        <div>
-        <div class="header-wide">
-            <div class="container flex flex__justify_between">
-                <img class="nike-logo" src="assets/img/icons/nike-logo.svg" width="20" alt="лого">
-                <nav>
-                    <ul class="flex">
-                        <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Find a Store</a></li>
-                        <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Help</a></li>
-                        <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Join Us</a></li>
-                        <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Sing in</a></li>
-                    </ul>
-                </nav>
+        <header>
+            <div class="header-wide">
+                <div class="container flex flex__justify_between">
+                    <img class="nike-logo" src="assets/img/icons/nike-logo.svg" width="20" alt="лого">
+                    <nav>
+                        <ul class="flex">
+                            <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Find a Store</a></li>
+                            <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Help</a></li>
+                            <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Join Us</a></li>
+                            <li class="drop__list-element-style font_medium global-menu__element"><a class="link" href="#">Sing in</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="container flex flex__justify_between flex__items_center clothes-types-container">
+                    <img class="jordan-logo" src="assets/img/icons/air-jordan-logo.svg" width="58" alt="лого">
+                    <nav class="clothes-types-nav">
+                        <ul class="flex gap_1-5rem">
+                            <li class="drop__list-element-style font_medium"><a class="link" href="#">New & Featured</a></li>
+                            <li class="drop__list-element-style font_medium"><a class="link" href="#">Men</a></li>
+                            <li class="drop__list-element-style font_medium"><a class="link" href="#">Women</a></li>
+                            <li class="drop__list-element-style font_medium"><a class="link" href="#">Kids</a></li>
+                            <li class="drop__list-element-style font_medium"><a class="link" href="#">Sale</a></li>
+                            <li class="drop__list-element-style font_medium"><a class="link" href="#">SNKRS</a></li>
+                        </ul>
+                    </nav>
+                    <div class="flex gap_1-5rem flex__items_center">
+                        <div class="relative">
+                        <button class="background__transparent no-border no-outline search-button"><img src="assets/img/icons/search.svg" alt="поиск"></button>
+                        <input placeholder="search" class="background_transparent no-border no-outline search-input" type="text">
+                        </div>            
+                        <div class="flex gap_1-5rem">
+                            <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/Like.svg" alt="нравится"></button>
+                            <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/basket.svg" alt="корзина"></button>
+                        </div> 
+                </div>
+            </div>  
             </div>
-            <div class="container flex flex__justify_between flex__items_center clothes-types-container">
-                <img class="jordan-logo" src="assets/img/icons/air-jordan-logo.svg" width="58" alt="лого">
-                <nav class="clothes-types-nav">
-                    <ul class="flex gap_1-5rem">
-                        <li class="drop__list-element-style font_medium"><a class="link" href="#">New & Featured</a></li>
-                        <li class="drop__list-element-style font_medium"><a class="link" href="#">Men</a></li>
-                        <li class="drop__list-element-style font_medium"><a class="link" href="#">Women</a></li>
-                        <li class="drop__list-element-style font_medium"><a class="link" href="#">Kids</a></li>
-                        <li class="drop__list-element-style font_medium"><a class="link" href="#">Sale</a></li>
-                        <li class="drop__list-element-style font_medium"><a class="link" href="#">SNKRS</a></li>
+            <div class="header-mobile">
+                <nav class="nav-mobile">
+                    <a href="/">
+                      <img class="" src="/assets/img/icons/nike_logo_white.svg" alt="логотип">
+                    </a>
+                    <input id="burger-toggle" type="checkbox">
+                    <label for="burger-toggle">
+                      <span></span>
+                    </label>
+                    <ul class="header__list drop__list-element-style ">
+                      <li>
+                        <a href="/" class="header__link font_regular link">New & Featured</a>
+                      </li>
+                      <li>
+                        <a href="/" class="header__link font_regular link">Men</a>
+                      </li>
+                      <li>
+                        <a href="/" class="header__link font_regular link">Women</a>
+                      </li>
+                      <li>
+                        <a href="/" class="header__link font_regular link">Kids</a>
+                      </li>
+                      <li>
+                        <a href="/" class="header__link font_regular link">Sale</a>
+                      </li>
+                      <li>
+                        <a href="/" class="header__link font_regular link">SNKRS</a>
+                      </li>
+                      <hr class="no-margin ">
+                      <li>
+                          <a href="/" class="font_regular link jord">
+                              <img class="margin-right " src="assets/img/icons/jordan_logo_white.svg" width="20" alt="лого">Jordan
+                          </a>
+                        </li>
+                        <hr class="no-margin ">
+                        <li>
+                          <a href="/" class="header__link font_regular link">Find a Store</a>
+                        </li>
+                        <li>
+                          <a href="/" class="header__link font_regular link">Help</a>
+                        </li>
+                        <li>
+                          <a href="/" class="header__link font_regular link">Join Us</a>
+                        </li>
+                        <li>
+                          <a href="/" class="header__link font_regular link">Sing in</a>
+                        </li>
                     </ul>
-                </nav>
-                <div class="flex gap_1-5rem flex__items_center">
-                    <div class="relative">
-                    <button class="background__transparent no-border no-outline search-button"><img src="assets/img/icons/search.svg" alt="поиск"></button>
-                    <input placeholder="search" class="background_transparent no-border no-outline search-input" type="text">
-                    </div>            
-                    <div class="flex gap_1-5rem">
-                        <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/Like.svg" alt="нравится"></button>
-                        <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/basket.svg" alt="корзина"></button>
-                    </div> 
-            </div>
-        </div>  
-        </div>
-        <div class="header-mobile">
-            <div class="container flex flex__justify_between">
-                <img class="jordan-logo" src="assets/img/icons/air-jordan-logo.svg" width="58" alt="лого"> 
-            <div class="container flex flex__justify_between flex__items_center clothes-types-container">                             
-                <div class="flex gap_1-5rem flex__items_center">
-                    <div class="relative">
-                    <button class="background__transparent no-border no-outline search-button"><img src="assets/img/icons/search.svg" alt="поиск"></button>
-                    <input placeholder="search" class="background_transparent no-border no-outline search-input" type="text">
-                    </div>            
-                    <div class="flex gap_1-5rem">
-                        <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/Like.svg" alt="нравится"></button>
-                        <button class="cursor_pointer background_transparent no-border no-outline"><img src="assets/img/icons/basket.svg" alt="корзина"></button>
-                    </div>               
-            </div>                          
-        </div>        
-    </div>  
-    <div class="border-bottom-menu">        
-        <ul>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">New & Featured</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Men</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Women</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Kids</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Sale</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">SNKRS</a></li>
-            <li class="drop__list-element-style font_medium"><img class="margin-right" src="assets/img/icons/nike-logo.svg" width="20" alt="лого">Jordan</li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Find a Store</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Help</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Join Us</a></li>
-            <li class="drop__list-element-style font_medium"><a class="link" href="#">Sing in</a></li>
-        </ul>                        
-    </div>   
-    </header>
+                  </nav>
+            </div> 
+        </header>      
     <main class="container flex_1">
         <section class="text-align_center">  
             <img class="width-100" src="assets/img/banner.jpeg" alt="баннер">
@@ -358,9 +376,9 @@
                 <li class="margin__left_2rem link">Terms of Use</li>
                 <li class="margin__left_2rem link">Nike Privacy Policy</li>
             </ul>        
-        </div>
-           
+        </div>           
     </footer>
 </div>
 </body>
 </html>
+

@@ -7,6 +7,10 @@
     font-family: 'Roboto-medium'
 }
 
+.open {
+    display: flex !important!;
+}
+
 .font-size_3-5rem {
     font-size: 3.5rem;
 }
